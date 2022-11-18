@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "649068600069",
+    "project_id": "fir-aula-2022-2",
+    "storage_bucket": "fir-aula-2022-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649068600069:android:e0a92521bf0814f666b56c",
+        "android_client_info": {
+          "package_name": "br.edu.uniritter.mobile.appfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649068600069-ini8s52q0cmjt45e8j6e92g94l70v12q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC02jIJT33lUQRi7MrQmTddgDcq9q3_SCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649068600069-ini8s52q0cmjt45e8j6e92g94l70v12q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
