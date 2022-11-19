@@ -16,6 +16,9 @@
         android:theme="@style/Theme.AppFirebase"
         tools:targetApi="31">
         <activity
+            android:name=".AlunosActivity"
+            android:exported="false" />
+        <activity
             android:name=".NovoLoginActivity"
             android:exported="false" />
         <activity

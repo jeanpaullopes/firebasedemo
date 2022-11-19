@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements LoginPresenterCon
 
     @Override
     public void entrar() {
-
+        startActivity(new Intent(this, AlunosActivity.class));
     }
 
     @Override

@@ -24,6 +24,11 @@ public class LoginPresenter implements LoginPresenterContract.presenter{
         // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
         this.user = mAuth.getCurrentUser();
+        if (user != null) {
+            mAuth.signOut();
+            this.user = mAuth.getCurrentUser();
+        }
+        Log.d(TAG, "LoginPresenter: "+user);
 
     }
 
