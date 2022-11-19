@@ -22,7 +22,7 @@ public class NovoLoginActivity extends AppCompatActivity implements LoginPresent
                     ((EditText)findViewById(R.id.editSenha1)).getText().toString(),
                     ((EditText)findViewById(R.id.editSenha2)).getText().toString());
         });
-        
+
     }
 
     @Override

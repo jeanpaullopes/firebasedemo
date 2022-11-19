@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements LoginPresenterCon
         this.presenter = new LoginPresenter(this);
         findViewById(R.id.btLogar).setOnClickListener((view)->{
             presenter.logar(((EditText)findViewById(R.id.editEmailLogin)).getText().toString(),
-                            ((EditText)findViewById(R.id.editEmailLogin)).getText().toString());
+                            ((EditText)findViewById(R.id.editSenhaLogin)).getText().toString());
         });
         findViewById(R.id.textView6).setOnClickListener((view)->{
             Intent intent = new Intent(this, NovoLoginActivity.class);

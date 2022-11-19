@@ -30,19 +30,6 @@ public class LoginPresenter implements LoginPresenterContract.presenter{
     @Override
     public void logar(String email, String senha) {
         mAuth.signInWithEmailAndPassword(email, senha)
-                .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
-                    @Override
-                    public void onSuccess(AuthResult authResult) {
-                        Log.d(TAG, "onSuccess: ");
-                    }
-                })
-                .addOnFailureListener(new OnFailureListener() {
-                                          @Override
-                                          public void onFailure(@NonNull Exception e) {
-                                              view.message("Login falhou: "+e.getMessage());
-                                          }
-                                      }
-                )
                 .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
 
                     @Override
